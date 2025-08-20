@@ -68,7 +68,7 @@ export class VerificacionesGenerales {
     } catch (error) {
       return {
         exito: false,
-        errores: [`Error durante el procesamiento: ${error.message}`]
+        errores: [`Error durante el procesamiento: ${error instanceof Error ? error.message : 'Error desconocido'}`]
       };
     }
   }
@@ -250,7 +250,7 @@ export class VerificacionesGenerales {
       }
 
     } catch (error) {
-      errores.push(`Error verificando configuración: ${error.message}`);
+      errores.push(`Error verificando configuración: ${error instanceof Error ? error.message : 'Error desconocido'}`);
     }
 
     return { servicios, errores };

@@ -6,7 +6,7 @@ import nodemailer from 'nodemailer';
 const tokenStorage = new Map<string, { token: string; expiry: Date; verified: boolean }>();
 
 // Configuración del transportador de email
-const transporter = nodemailer.createTransporter({
+const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST || 'smtp.gmail.com',
   port: parseInt(process.env.SMTP_PORT || '587'),
   secure: false,

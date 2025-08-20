@@ -1,0 +1,68 @@
+{
+  "name": "taxiplus-maracaibo",
+  "version": "1.0.0",
+  "description": "Sistema completo de registro y verificación automática para conductores y clientes de Taxiplus Maracaibo",
+  "main": "backend/api-example.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/backend/api-example.js",
+    "dev": "ts-node backend/api-example.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "demo": "ts-node scripts/demo.ts",
+    "import-gmail": "ts-node backend/scripts/importarContactosGmail.ts",
+    "lint": "eslint backend/**/*.ts",
+    "lint:fix": "eslint backend/**/*.ts --fix"
+  },
+  "keywords": [
+    "taxi",
+    "maracaibo",
+    "verification",
+    "registration",
+    "ocr",
+    "facial-recognition",
+    "saime",
+    "otp",
+    "email-verification"
+  ],
+  "author": "Taxiplus Maracaibo",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@google-cloud/vision": "^4.0.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.0",
+    "google-auth-library": "^9.4.0",
+    "googleapis": "^128.0.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.9.0",
+    "twilio": "^4.19.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/jest": "^29.5.0",
+    "@types/multer": "^1.4.0",
+    "@types/node": "^20.10.0",
+    "@types/nodemailer": "^6.4.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Troconiz/z5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Troconiz/z5/issues"
+  },
+  "homepage": "https://github.com/Troconiz/z5#readme"
+}

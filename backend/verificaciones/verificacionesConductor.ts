@@ -62,7 +62,7 @@ export class VerificacionesConductor {
     } catch (error) {
       return {
         exito: false,
-        errores: [`Error durante el procesamiento: ${error.message}`]
+        errores: [`Error durante el procesamiento: ${error instanceof Error ? error.message : 'Error desconocido'}`]
       };
     }
   }
