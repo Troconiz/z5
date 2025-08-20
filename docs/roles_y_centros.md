@@ -1,3 +1,3 @@
 # Roles y Centros
 
-Descripción de roles y centros.
+Definición de roles y centros en Taxiplus.

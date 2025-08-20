@@ -1,3 +1,3 @@
 # Backend
 
-Instrucciones para el backend.
+Documentación del backend.

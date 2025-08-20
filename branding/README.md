@@ -1,3 +1,3 @@
 # Branding
 
-Guía de branding para Taxiplus Maracaibo.
+Documentación sobre el branding de Taxiplus.

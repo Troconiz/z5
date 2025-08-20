@@ -1,3 +1,3 @@
 # Documentación
 
-Documentación general del proyecto.
+Esta carpeta contiene la documentación relacionada con el registro de clientes y conductores.

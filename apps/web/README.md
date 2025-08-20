@@ -1,3 +1,3 @@
 # Aplicación Web
 
-Instrucciones para la aplicación web.
+Documentación de la aplicación web.

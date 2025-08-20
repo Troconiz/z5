@@ -1,3 +1,3 @@
 # Wireframe de Inicio
 
-Wireframe del inicio de la aplicación.
+Wireframe del proceso de inicio de sesión y registro.

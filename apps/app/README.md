@@ -1,3 +1,3 @@
 # Aplicación Móvil
 
-Instrucciones para la aplicación móvil.
+Documentación de la aplicación móvil.

@@ -1,3 +1,3 @@
 # Supabase
 
-Instrucciones para la integración con Supabase.
+Documentación sobre la implementación de Supabase.

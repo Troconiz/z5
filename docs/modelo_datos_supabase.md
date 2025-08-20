@@ -1,3 +1,3 @@
 # Modelo de Datos Supabase
 
-Definición del modelo de datos en Supabase.
+Descripción del modelo de datos utilizado en Supabase.
