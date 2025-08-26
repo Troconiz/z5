@@ -1,10 +1,28 @@
-goals:
-  - name: Lanzamiento MVP
-    due: 2025-09-30
-    tasks:
-      - name: Diseño de interfaz
-        status: pendiente
-      - name: Backend funcional
-        status: en progreso
-      - name: Pruebas QA
-        status: pendiente
+hitos:
+  - titulo: "Lanzamiento MVP"
+    descripcion: |
+      Desarrollo y lanzamiento del producto mínimo viable (MVP) para el proyecto z5.
+      
+      **Tareas incluidas:**
+      - Diseño de interfaz (estado: pendiente)
+      - Backend funcional (estado: en progreso)
+      - Pruebas QA (estado: pendiente)
+      
+      **Fecha objetivo:** 2025-09-30
+    fecha_objetivo: "2025-09-30"
+    estado: "planificado"
+  
+  - titulo: "Implementar autenticación de usuarios"
+    descripcion: |
+      Sistema completo de autenticación y autorización para el proyecto z5.
+      
+      **Funcionalidades requeridas:**
+      - Registro de usuarios
+      - Login/logout
+      - Gestión de sesiones
+      - Recuperación de contraseñas
+      - Roles y permisos
+      
+      **Fecha objetivo:** 2025-08-15
+    fecha_objetivo: "2025-08-15"
+    estado: "pendiente"
