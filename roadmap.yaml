@@ -1,12 +1,10 @@
-hitos:
-  - titulo: "Configuración inicial del proyecto"
-    descripcion: "Establecer la estructura básica del proyecto y configuraciones iniciales necesarias."
-  
-  - titulo: "Implementación de funcionalidades core"
-    descripcion: "Desarrollo de las funcionalidades principales del sistema."
-  
-  - titulo: "Testing y validación"
-    descripcion: "Implementación de pruebas unitarias e integración, validación de funcionalidades."
-  
-  - titulo: "Documentación y deployment"
-    descripcion: "Completar documentación técnica y configurar pipeline de deployment."
+goals:
+  - name: Lanzamiento MVP
+    due: 2025-09-30
+    tasks:
+      - name: Diseño de interfaz
+        status: pendiente
+      - name: Backend funcional
+        status: en progreso
+      - name: Pruebas QA
+        status: pendiente
