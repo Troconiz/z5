@@ -1,0 +1,12 @@
+hitos:
+  - titulo: "Configuración inicial del proyecto"
+    descripcion: "Establecer la estructura básica del proyecto y configuraciones iniciales necesarias."
+  
+  - titulo: "Implementación de funcionalidades core"
+    descripcion: "Desarrollo de las funcionalidades principales del sistema."
+  
+  - titulo: "Testing y validación"
+    descripcion: "Implementación de pruebas unitarias e integración, validación de funcionalidades."
+  
+  - titulo: "Documentación y deployment"
+    descripcion: "Completar documentación técnica y configurar pipeline de deployment."
