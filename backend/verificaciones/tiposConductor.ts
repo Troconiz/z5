@@ -1,6 +1,6 @@
-// Tipos de datos para el registro de conductor (completo)
+
 export type ConductorRegistro = {
-  codigo: string;                // Código único: c0001, c0002, ...
+  codigo_conductor: string;        // Código único: c110, c111, ... (campo principal en BD)
   telefono: string;
   telefono_verificado?: boolean;
   otp_input?: string;
@@ -26,6 +26,16 @@ export type ConductorRegistro = {
   foto_titulo: Buffer;            // Título del vehículo
   foto_compraventa?: Buffer;      // Documento compra-venta (opcional, pero si se tiene es obligatorio enviar)
   status: 'pendiente_inspeccion' | 'aprobado' | 'rechazado';
+
+};
+
+// Estado de un conductor rechazado que será migrado a cliente
+export type ConductorRechazadoMigracion = {
+  codigo_conductor_liberado: string; // El código cXXX que se libera
+  nuevo_codigo_cliente: string;      // El código p000X asignado como cliente
+  razon_rechazo?: string;
+  fecha_migracion: Date;
+
   fecha_registro: Date;
   fecha_ultima_actualizacion?: Date;
   razon_rechazo?: string;         // Razón del rechazo si aplica
@@ -70,4 +80,5 @@ export const MENSAJE_REGISTRO_EXITOSO = {
   titulo: "¡Registro exitoso!",
   mensaje: "Su registro ha sido procesado correctamente. Su código de conductor es: {codigo}. Ahora debe pasar por la inspección física en nuestras oficinas para activar su cuenta.",
   instrucciones: "Por favor, diríjase a nuestras oficinas con todos los documentos originales para completar la inspección física. Le notificaremos una vez aprobada su solicitud."
+
 };
